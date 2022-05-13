@@ -2,64 +2,67 @@
 <html>
     <head>
        <link rel="stylesheet" href="style.css">
-        <title>Basic CSS</title>
+        <title>Marioclub</title>
     </head>
     <body>
-        <h1>Basic CSS</h1>
-        <p class="error">Dashain (Baḍadasai बडादशैँ in Nepal, also Vijaya Dashami), is a major Hindu religious festival in Nepal
-            [3] and some parts of India. It is also celebrated by Hindus elsewhere in the world,[4] including
-             among the Lhotshampa of Bhutan[5] and the Burmese Gurkhas of Myanmar. A version of this festival
-              is celebrated as Navaratri, Dussehra or Dashera by Hindus in India, although rites and rituals 
-              vary significantly.</p>
-
-            <p id="content">It is the longest and the most auspicious festival in the Bikram Sambat and Nepal Sambat annual 
-            calendars, celebrated by Nepalese people, along with their diaspora throughout the globe. In Nepal,
-             it is also known as the biggest festival of the country and is the longest national/public holiday
-             , 5 days to be exact. It is the most anticipated festival in Nepal. People return from all parts 
-             of the world, as well as different parts of the country, to celebrate together.[4] All government
-              offices, educational institutions, and other offices remain closed during the festival period. 
-              The festival falls in September or October, starting from the shukla paksha (bright lunar night)
-               of the month of Ashwin and ending on Purnima, the full moon. Among the fifteen days on which it 
-               is celebrated, the most important days are the first, seventh, eighth, ninth, tenth, and 
-               fifteenth.[6]
-            
-            Among the Newar of the Kathmandu Valley, Dashain is popularly celebrated as Mohani and is 
-            celebrated as the most important festival of Nepal Sambat calendar year.[7] Among Hindu and 
-            Buddhist Newars, it is celebrated with variations where each nine days Navaratri (Newar: नवरात्री) 
-            leading up to the 10th day, called Dashami, carry special importance, with the most important 
-            days being the Ghatasthapana, Maha Asthami (8th-day), Maha Nawami (9th-day) and Maha Dashami.[8] 
-        </p>
-        <div id="content">
-            <h2>Sleduap available for hire</h2>
-            <p class="error bad">Dashain (Baḍadasai बडादशैँ in Nepal, also Vijaya Dashami), is a major Hindu religious festival in Nepal
-                [3] and some parts of India. It is also celebrated by Hindus elsewhere in the world,[4] including
-                 among the Lhotshampa of Bhutan[5] and the Burmese Gurkhas of Myanmar. A version of this festival
-                  is celebrated as Navaratri, Dussehra or Dashera by Hindus in India, although rites and rituals 
-                  vary significantly.
-    
-                <small class="error">Hello</small>It is the longest and the most auspicious festival in the Bikram Sambat and Nepal Sambat annual 
-                calendars, celebrated by Nepalese people, along with their diaspora throughout the globe. In Nepal,
-                 it is also known as the biggest festival of the country and is the longest national/public holiday
-                 , 5 days to be exact. It is the most anticipated festival in Nepal. People return from all parts 
-                 of the world, as well as different parts of the country, to celebrate together.[4] All government
-                  offices, educational institutions, and other offices remain closed during the festival period. 
-                  The festival falls in September or October, starting from the shukla paksha (bright lunar night)
-                   of the month of Ashwin and ending on Purnima, the full moon. Among the fifteen days on which it 
-                   is celebrated, the most important days are the first, seventh, eighth, ninth, tenth, and 
-                   fifteenth.[6] </p>
-                
-                <p>Among the Newar of the Kathmandu Valley, Dashain is popularly celebrated as Mohani and is 
-                celebrated as the most important festival of Nepal Sambat calendar year.[7] Among Hindu and 
-                Buddhist Newars, it is celebrated with variations where each nine days Navaratri (Newar: नवरात्री) 
-                leading up to the 10th day, called Dashami, carry special importance, with the most important 
-                days being the Ghatasthapana, Maha Asthami (8th-day), Maha Nawami (9th-day) and Maha Dashami.[8] </p>
-            <ul class="error">
-                <li><a href="about.html">Sudarshan Sharma Paudel</a></li>
-                <li><a href="https://github.com/sleduap">Sleduap Paudel</a></li>
-                <li>Paudel Sleduap</li>
+        <header>
+            <h1>MarioClub</h1>
+        </header>
+        <section class="banner">
+            <img src="img/banner.png" alt="marioclub welcome banner">
+            <div class="welcome">
+                <h2>Welcome to <br><span>MarioClub</span></h2>
+            </div>
+        </section>
+        <nav class="main nav">
+            <ul>
+                <li>
+                    <a href="/join.html" class="join">Join the club</a>
+                </li>
+                <li>
+                    <a href="/news.html">latest news</a>
+                </li>
+                <li>
+                    <a href="/join.html">New games</a>
+                </li>
+                <li>
+                    <a href="/contact.html">Contact</a>
+                </li>
+            </nav>
+                <main>
+                    <article>
+                        <h2>It's me, Mario</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, minima corporis. Sunt, 
+                            voluptate fugiat. Illo tempore amet veniam at architecto, accusamus hic nobis autem voluptates 
+                            suscipit aut officia fuga beatae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic 
+                            quia accusantium nobis possimus voluptatum explicabo corrupti est in reprehenderit. A nostrum 
+                            recusandae, est iure aliquam beatae nemo totam officia perferendis.</p>
+                    </article>
+                    <ul class="images">
+                        <li>
+                            <img src="img/thumb-1.png" alt="mario thumb 1">
+                            <img src="img/thumb-2.png" alt="mario thumb 2">
+                        </li>
+                    </ul>
+                </main>
+                <section class="join">
+                    <h2>Join Today!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Vel esse quod repellat, magni accusantium ea. 
+                        A quis quod aliquam veniam totam commodi, 
+                        dolor facere in mollitia nemo, facilis eligendi
+                         quaerat.</p>
+                    <form >
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="Type email & hit enter" required>
+                    </form>
+                </section>
+                <footer>
+                    <p class="copyright">Copyright 2022 MarioClub</p>
+                </footer>
             </ul>
-           
-        </div>
+        
+     
        
     </body>
 
