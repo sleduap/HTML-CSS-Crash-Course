@@ -4,35 +4,38 @@
         <title>Learning HTML</title>
     </head>
     <body>
-        <div>
-            <p>Hello <strong>Sleduap</strong></p>
-            <p>First <small>Web</small> <em>page</em> !</p>
-            <a href="https://github.com/sleduap">Sudarshan Github Link</a>
-        </div>
-        <hr>
-        <div>
-            <h1>heading 1</h1>
-            <h2>heading 2</h2>
-            <h3>heading 3</h3>
-            <h4>heading 4</h4>  
-            <h5>heading 5</h5>
-            <h6>heading 6</h6>
-        </div>
-        <div>
-        <ol>
-            <li>Sudarshan</li>
-            <li>Sharma</li>
-        </ol>
-        </div>
-        <span>I am a <br>span tag</span>
-        <hr>
-        <img src="img/919853.png" alt="Docker">
-        <blockquote cite="https://github.com/sleduap">
-            This is awesome
-        </blockquote>
-        <p style="color: chocolate;">
-            I am a docker expert.
-        </p>
+       <h1>HTML FORM</h1>
+       <form>
+           <label for="username">User Name</label>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password">
+        <p>Select age range:</p>
+        <input type="radio" name="age range" value="0-25" id="0-25">
+        <label for="0-25">0 - 25</label>
+
+        <input type="radio" name="age range" value="26-50" id="26-50">
+        <label for="26-50">26 - 50</label>
+
+        <input type="radio" name="age range" value="56-100" id="56-100">
+        <label for="56-100">56 - 100</label>
+        <br><br>
+        <label for="city">City:</label>
+        <select name="city" id="city">
+         <option value="Kathmandu">Kathmandu</option>
+         <option value="Pokhara">Pokhara</option>
+         <option value="Syangja">Syangja</option>
+         
+        </select>
+        <br><br>
+        <label for="remarks">Remarks:</label><br>
+         <textarea name="remarks" id="remarks" cols="30" rows="10" placeholder="Enter any text"></textarea>
+         <br><br><input type="submit" value="Submit the form">
+       </form>
     </body>
 
 </html>
