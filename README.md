@@ -1,4 +1,4 @@
-# HTML-CSS-Crash-Course
+# HTML-CSS-Crash-Course for beginner
 To export and impost vs code extension in your different machine:
    - ctrl + P or cmd + p
    - ext install aslamanver.vsc-export
